@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/icon.png" alt="Logo MOM Bus" width="96" height="96">
+</p>
+
 # MOM Bus (Mobilità di Marca) per Home Assistant
 
 Integrazione non ufficiale per Home Assistant che mostra i prossimi passaggi degli autobus MOM (Mobilità di Marca, Veneto) a una fermata, usando le API pubbliche (non documentate) del portale [myCicero](https://www.mycicero.it/).
