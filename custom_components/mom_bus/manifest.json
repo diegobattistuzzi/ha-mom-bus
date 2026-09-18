@@ -1,0 +1,12 @@
+{
+  "domain": "mom_bus",
+  "name": "MOM Bus (Mobilità di Marca)",
+  "version": "0.2.0",
+  "documentation": "https://github.com/diegobattistuzzi/ha-mom-bus",
+  "issue_tracker": "https://github.com/diegobattistuzzi/ha-mom-bus/issues",
+  "codeowners": ["@diegobattistuzzi"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "integration_type": "service",
+  "requirements": []
+}

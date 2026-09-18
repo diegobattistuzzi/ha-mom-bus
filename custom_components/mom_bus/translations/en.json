@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add MOM stop",
+        "description": "Enter the stop code (found in the mycicero.it URL, e.g. /stops/204130) and, if you want to filter a single line, its number.",
+        "data": {
+          "cod_fermata": "Stop code",
+          "line": "Line (optional, e.g. 153)",
+          "name": "Sensor name (optional)"
+        }
+      },
+      "advanced": {
+        "title": "Advanced options",
+        "description": "Usually no need to change these.",
+        "data": {
+          "cod_azienda": "Company code",
+          "id_sistema": "System ID"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the myCicero service or invalid stop."
+    },
+    "abort": {
+      "already_configured": "This stop/line is already configured."
+    }
+  }
+}
