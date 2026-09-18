@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" alt="Logo MOM Bus" width="96" height="96">
+  <img src="assets/banner.png" alt="MyCicero for Home Assistant" width="320">
 </p>
 
 # MOM Bus (Mobilità di Marca) per Home Assistant
