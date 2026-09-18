@@ -2,34 +2,34 @@
   <img src="assets/banner.png" alt="MyCicero for Home Assistant" width="320">
 </p>
 
-# MOM Bus (Mobilità di Marca) per Home Assistant
+# MOM Bus (Mobilità di Marca) for Home Assistant
 
-Integrazione non ufficiale per Home Assistant che mostra i prossimi passaggi degli autobus MOM (Mobilità di Marca, Veneto) a una fermata, usando le API pubbliche (non documentate) del portale [myCicero](https://www.mycicero.it/).
+Unofficial Home Assistant integration that shows the next bus arrivals for a MOM (Mobilità di Marca, Veneto, Italy) stop, using the public (undocumented) API of the [myCicero](https://www.mycicero.it/) portal.
 
-> Integrazione non ufficiale, non affiliata a MOM né a myCicero/PluService. Le API utilizzate non sono documentate pubblicamente e potrebbero cambiare senza preavviso.
+> Unofficial integration, not affiliated with MOM or myCicero/PluService. The APIs used are not publicly documented and may change without notice.
 
-## Funzionalità
+## Features
 
-- Sensore con i minuti al prossimo passaggio a una fermata, filtrabile per linea.
-- Attributi con la lista dei prossimi passaggi (linea, destinazione, orario, ritardo, se real-time).
-- Configurazione tramite interfaccia utente (config flow), nessun YAML richiesto.
+- Sensor showing minutes until the next bus at a stop, optionally filtered by line.
+- Attributes with the list of upcoming arrivals (line, destination, time, delay, whether real-time).
+- Configured entirely through the UI (config flow), no YAML required.
 
-## Installazione
+## Installation
 
-### Tramite HACS
+### Via HACS
 
-1. In HACS, aggiungi questo repository come [custom repository](https://hacs.xyz/docs/faq/custom_repositories/): `diegobattistuzzi/ha-mom-bus`.
-2. Cerca "MOM Bus" tra le integrazioni e installala.
-3. Riavvia Home Assistant.
+1. In HACS, add this repository as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories/): `diegobattistuzzi/ha-mom-bus`.
+2. Search for "MOM Bus" among the integrations and install it.
+3. Restart Home Assistant.
 
-### Manuale
+### Manual
 
-Copia la cartella `custom_components/mom_bus` in `<config>/custom_components/` e riavvia Home Assistant.
+Copy the `custom_components/mom_bus` folder into `<config>/custom_components/` and restart Home Assistant.
 
-## Configurazione
+## Configuration
 
-Dopo l'installazione, vai su **Impostazioni → Dispositivi e servizi → Aggiungi integrazione** e cerca "MOM Bus". Inserisci il codice della fermata (visibile nell'URL della fermata su myCicero) e, opzionalmente, il codice della linea da filtrare.
+After installation, go to **Settings → Devices & services → Add integration** and search for "MOM Bus". Enter the stop code (visible in the stop's URL on myCicero) and, optionally, the line code to filter by.
 
 ## Disclaimer
 
-Progetto amatoriale basato sull'osservazione del traffico di rete del sito myCicero. Nessuna garanzia di funzionamento continuo.
+Hobby project based on observing myCicero's network traffic. No guarantee of continued functionality.
